@@ -1,11 +1,1 @@
-node_modules/
-dist/
-qwen_profile/
-.env
-.env.local
-*.log
-.DS_Store
-coverage/
-.cache/
-.kilo
-qwen_profile/
+Nothing should be ignored in this case, as only a markdown file (.md) was added and there are no build artifacts, dependencies, or temporary files in the changes.
