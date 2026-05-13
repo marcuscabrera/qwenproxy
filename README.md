@@ -26,6 +26,11 @@ Este projeto é ideal para desenvolvedores que desejam integrar capacidades de I
 - **Proteção por API Key**: Autenticação opcional via Bearer Token
 - **Modelos com Raciocínio**: Suporte a modelos Qwen com capacidade de thinking
 - **CORS Habilitado**: Permite requisições de aplicações web frontend
+- **Suporte a Múltiplos Modelos Qwen**: Compatibilidade com diferentes modelos da família Qwen
+- **Cache de Respostas**: Otimização de desempenho através de cache de respostas frequentes
+- **Rate Limiting Configurável**: Controle de taxa de requisições para proteção do servidor
+- **Logs Estruturados**: Registro de logs em formato JSON para melhor análise e monitoramento
+- **Documentação de API**: Especificação OpenAPI/Swagger para integração facilitada
 
 ---
 
@@ -378,14 +383,11 @@ Para dúvidas gerais, utilize as **Discussions** do GitHub. Para bugs reportados
 - [x] Login automatizado via Playwright
 - [x] Proteção por API Key
 - [x] Containerização Docker
-
-### 🚧 Em Desenvolvimento
-
-- [ ] Suporte a múltiplos modelos Qwen
-- [ ] Cache de respostas para otimização
-- [ ] Rate limiting configurável
-- [ ] Logs estruturados (JSON)
-- [ ] Documentação de API (OpenAPI/Swagger)
+- [x] Suporte a múltiplos modelos Qwen
+- [x] Cache de respostas para otimização
+- [x] Rate limiting configurável
+- [x] Logs estruturados (JSON)
+- [x] Documentação de API (OpenAPI/Swagger)
 
 ### 📅 Planejamentos Futuros
 
