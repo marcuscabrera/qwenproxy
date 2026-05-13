@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore since only a markdown file (ROADMAP_IMPLEMENTACAO.md) was added, which is a source/config file and should not be ignored.
+Nothing needs to be added to .gitignore since only a README.md file was modified and no build artifacts, dependencies, or temporary files were included in the changes.

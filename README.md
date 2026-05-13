@@ -391,12 +391,25 @@ Para dúvidas gerais, utilize as **Discussions** do GitHub. Para bugs reportados
 
 ### 📅 Planejamentos Futuros
 
-- [ ] Suporte a visão/imagem (multimodal)
-- [ ] Webhooks para eventos assíncronos
-- [ ] Dashboard de monitoramento
-- [ ] Integração com provedores alternativos
-- [ ] Plugin system para extensões
-- [ ] Suporte a batch requests
+Para detalhes técnicos e plano de implementação de cada funcionalidade, consulte o documento [ROADMAP_IMPLEMENTACAO.md](./ROADMAP_IMPLEMENTACAO.md).
+
+| Funcionalidade | Esforço Estimado | Complexidade | Prioridade |
+|----------------|------------------|--------------|------------|
+| 🖼️ Suporte Multimodal | 5-7 dias | Alta | Alta |
+| 🔔 Webhooks | 4-6 dias | Média-Alta | Média |
+| 📊 Dashboard de Monitoramento | 6-8 dias | Média-Alta | Média |
+| 📦 Batch Requests | 4-5 dias | Média | Média-Baixa |
+| 🔌 Provedores Alternativos | 7-10 dias | Alta | Baixa-Média |
+| 🧩 Plugin System | 8-12 dias | Muito Alta | Baixa |
+
+**Ordem Recomendada de Implementação:**
+
+1. **Suporte Multimodal** - Alto impacto, alinha com expectativas do mercado
+2. **Webhooks** - Habilita integrações poderosas com esforço moderado
+3. **Dashboard** - Melhora operacional imediata para administradores
+4. **Batch Requests** - Caso de uso específico mas valioso
+5. **Provedores Alternativos** - Requer refatoração mas aumenta flexibilidade
+6. **Plugin System** - Maior esforço, adiar até a base estar mais madura
 
 ---
 
